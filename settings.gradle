@@ -9,3 +9,7 @@ findProject(':springboot-for-the-really-impatient:ch02')?.name = 'ch02'
 //findProject(':springboot-for-the-really-impatient:ch02:2.1.1_hajiboot-di')?.name = '2.1.1_hajiboot-di'
 include 'springboot-for-the-really-impatient:ch02:2.1.2_hajiboot-di'
 findProject(':springboot-for-the-really-impatient:ch02:2.1.2_hajiboot-di')?.name = '2.1.2_hajiboot-di'
+include 'security'
+include 'security:database'
+findProject(':security:database')?.name = 'database'
+
